@@ -1,0 +1,22 @@
+INSERT INTO Questions (Question_Type,question, Choice_1, Choice_2, Choice_3, Choice_4, correct_Choice, Crs_ID)
+VALUES
+('MCQ','Which of these is NOT a chart type in Tableau?', 'Tree Map', 'Gantt Chart', 'Pareto Chart', 'Radar Chart', 'Radar Chart',17),
+('MCQ','In Tableau, what does a calculated field allow you to do?', 'Change the data type of a field', 'Create a new visualization', 'Perform operations on data at the source', 'Create a new field derived from existing fields in your data', 'Create a new field derived from existing fields in your data',17),
+('MCQ','What is Tableau primarily used for?', 'Data Entry', 'Database Management', 'Data Visualization', 'Spreadsheet Calculations', 'Data Visualization',17),
+('MCQ','Which Tableau component would you use to combine multiple visualizations into a single view?', 'Worksheet', 'Dashboard', 'Story', 'Data Source', 'Dashboard',17),
+('MCQ','What is the default aggregation for a measure in Tableau?', 'SUM', 'MEAN', 'MEDIAN', 'COUNT', 'SUM',17),
+('MCQ','How can you share a Tableau Dashboard with others?', 'Print it out', 'Export as CSV', 'Publish to Tableau Server or Tableau Public', 'Convert it to a PDF file', 'Publish to Tableau Server or Tableau Public',17),
+('MCQ','What does "Dual Axis" allow you to do in Tableau?', 'Combine two charts into one', 'Display two measures together', 'Compare two different data sources', 'Split the data into two panels', 'Display two measures together',17),
+('MCQ','What feature in Tableau is used to create groups of data?', 'Calculated Fields', 'Sets', 'Parameters', 'Bins', 'Sets',17),
+('MCQ','What is a LOD expression in Tableau?', 'A way to compute aggregations that are not at the level of detail of the visualization', 'A function to calculate the length of data', 'A method to lock the dashboard layout', 'A formula to set default values for fields', 'A way to compute aggregations that are not at the level of detail of the visualization',17),
+('MCQ','Which of the following is true about Tableau Prep?', 'It is used to prepare slideshows', 'It allows real-time collaboration', 'It is used for data preparation', 'It is a tool for advanced statistical analysis', 'It is used for data preparation',17),
+('True/False','Tableau can connect to almost any data source.', 'True', 'False', Null, Null, 'True',17),
+('True/False','In Tableau, a "Story" is a collection of data sources.', 'True', 'False', Null, Null, 'False',17),
+('True/False','Tableau Desktop is a free version of Tableau.','True', 'False', Null, Null, 'False',17),
+('True/False','You can perform predictive analysis directly in Tableau without any external tools.','True', 'False', Null, Null , 'True',17),
+('True/False','Tableau Public allows you to save workbooks privately.', 'True', 'False', Null, Null , 'False',17),
+('True/False','Hierarchies in Tableau can only be created manually.', 'True', 'False', Null, Null , 'False',17),
+('True/False','Tableau does not support geospatial data for mapping.', 'True', 'False', Null, Null , 'False',17),
+('True/False','Parameters in Tableau cannot be used to filter data.', 'True', 'False', Null, Null , 'False',17),
+('True/False','Tableau Server is required to publish Tableau dashboards online.', 'True', 'False', Null, Null, 'True',17),
+('True/False','Tableau workbooks cannot be exported as PDF files.', 'True', 'False', Null, Null, 'False',17);

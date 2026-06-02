@@ -1,0 +1,14 @@
+insert into Branch (B_Name, Address_ID) values ('Aswan', 15);
+insert into Branch (B_Name, Address_ID) values ('Asyut', 9);
+insert into Branch (B_Name, Address_ID) values ('Alexandria', 5);
+insert into Branch (B_Name, Address_ID) values ('Menofia', 6);
+insert into Branch (B_Name, Address_ID) values ('Qena', 13);
+insert into Branch (B_Name, Address_ID) values ('Sohag', 8);
+insert into Branch (B_Name, Address_ID) values ('Mansoura', 4);
+insert into Branch (B_Name, Address_ID) values ('New Capital', 1);
+insert into Branch (B_Name, Address_ID) values ('Ismailia', 14);
+insert into Branch (B_Name, Address_ID) values ('Smart Village', 1);
+insert into Branch (B_Name, Address_ID) values ('Cairo University', 1);
+insert into Branch (B_Name, Address_ID) values ('Bane Suef', 18);
+insert into Branch (B_Name, Address_ID) values ('Fayoum', 19);
+insert into Branch (B_Name, Address_ID) values ('Minya', 20);

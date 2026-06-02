@@ -1,0 +1,10 @@
+insert into Topic (Topic_Name) values ('Artificial Intelligence');
+insert into Topic (Topic_Name) values ('Cyber Security');
+insert into Topic (Topic_Name) values ('Data Science');
+insert into Topic (Topic_Name) values ('Cloud Gaming');
+insert into Topic (Topic_Name) values ('Networks');
+insert into Topic (Topic_Name) values ('Programming');
+insert into Topic (Topic_Name) values ('web');
+insert into Topic (Topic_Name) values ('Data Base');
+insert into Topic (Topic_Name) values ('Design');
+insert into Topic (Topic_Name) values ('Operating System');

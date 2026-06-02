@@ -1,0 +1,22 @@
+INSERT INTO Questions (Question_Type,question, Choice_1, Choice_2, Choice_3, Choice_4, correct_Choice, Crs_ID)
+VALUES
+('MCQ','Which of the following is NOT a characteristic of Big Data?', 'Volume', 'Velocity', 'Variability', 'Verification', 'Verification',20),
+('MCQ','What technology is primarily used to process large datasets in a distributed environment?', 'MySQL', 'Hadoop', 'MongoDB', 'Redis', 'Hadoop',20),
+('MCQ','Which of the following is a NoSQL database?', 'Oracle', 'SQL Server', 'MongoDB', 'PostgreSQL', 'MongoDB',20),
+('MCQ','What is MapReduce?', 'A data visualization tool', 'A data storage model', 'A programming model for processing large data sets', 'A machine learning algorithm', 'A programming model for processing large data sets',20),
+('MCQ','Which language is most commonly used with Apache Spark for big data processing?', 'Java', 'Python', 'C#', 'PHP', 'Python',20),
+('MCQ','What does HDFS stand for?', 'High-Density File System', 'Hadoop Data File System', 'Hadoop Distributed File System', 'Highly Distributed File System', 'Hadoop Distributed File System',20),
+('MCQ','Which of the following is a stream processing framework?', 'Hive', 'Pig', 'Flink', 'Cassandra', 'Flink',20),
+('MCQ','What is the main advantage of using cloud computing in Big Data?', 'Lower data quality', 'Increased data processing time', 'Scalability', 'Decreased data security', 'Scalability',20),
+('MCQ','What technique is used to analyze data to find hidden patterns and relationships?', 'Data mining', 'Data entry', 'Data replication', 'Data formatting', 'Data mining',20),
+('MCQ','Which tool is used for interactive data analysis and visualization?', 'Tableau', 'Excel', 'SAS', 'SPSS', 'Tableau',20),
+('True/False','Big Data analysis can predict customer behavior.', 'True', 'False', Null, Null, 'True',20),
+('True/False','SQL is the best language for processing Big Data due to its scalability.', 'True', 'False', Null, Null, 'False',20),
+('True/False','Hadoop and Spark are both frameworks used for processing Big Data, but Spark is generally faster.', 'True', 'False', Null, Null, 'True',20),
+('True/False','In Big Data, "Velocity" refers to the speed at which data ages.', 'False', 'True', 'False', Null, Null,20),
+('True/False','Machine learning algorithms cannot be applied to Big Data.', 'True', 'False', Null, Null, 'False',20),
+('True/False','Big Data requires the use of traditional data processing techniques.', 'True', 'False', Null, Null, 'False',20),
+('True/False','Data Lakes are storage repositories that hold a vast amount of raw data in its native format.', 'True', 'False', Null, Null, 'True',20),
+('True/False','The 3Vs of Big Data are Volume, Velocity, and Visualization.', 'True', 'False', Null, Null, 'False',20),
+('True/False','Apache Kafka is used for building real-time data pipelines and streaming apps.', 'True', 'False', Null, Null, 'True',20),
+('True/False','Cloud computing has had little impact on the growth of Big Data analytics.', 'True', 'False', Null, Null, 'False',20);

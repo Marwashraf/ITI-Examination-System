@@ -1,0 +1,22 @@
+INSERT INTO QUESTIONS (QUESTION_TYPE, QUESTION, choice_1, choice_2, choice_3, choice_4, correct_choice, crs_ID)
+VALUES 
+('MCQ', 'What is the primary component of communication?', 'Listening', 'Speaking', 'Writing', 'Reading', 'Listening', 24),
+('True/False', 'Active listening involves fully concentrating, understanding, responding, and remembering what is being said.', 'True', 'False', NULL, NULL, 'True', 24),
+('MCQ', 'Which of the following is a non-verbal form of communication?', 'Body language', 'Emails', 'Phone calls', 'Presentations', 'Body language', 24),
+('MCQ', 'What is the purpose of feedback in communication?', 'To provide constructive criticism', 'To show appreciation', 'To demonstrate understanding', 'To ask for clarification', 'To provide constructive criticism', 24),
+('True/False', 'Empathy is important in effective communication.', 'True', 'False', NULL, NULL, 'True', 24),
+('MCQ', 'What does "I-message" communication focus on?', 'Expressing one’s own feelings or thoughts', 'Interrogating others', 'Commanding others', 'Providing vague statements', 'Expressing one’s own feelings or thoughts', 24),
+('MCQ', 'Which of the following is an example of non-verbal communication?', 'Gestures', 'Text messages', 'Voice tone', 'Written reports', 'Gestures', 24),
+('True/False', 'Paraphrasing involves restating someone else’s words in your own words.', 'True', 'False', NULL, NULL, 'True', 24),
+('MCQ', 'What is a common barrier to effective communication?', 'Assumptions and jumping to conclusions', 'Active listening', 'Empathy', 'Clear messaging', 'Assumptions and jumping to conclusions', 24),
+('MCQ', 'What is the importance of body language in communication?', 'It can convey emotions and attitudes', 'It is the only form of communication', 'It is not significant in communication', 'It is only useful in formal settings', 'It can convey emotions and attitudes', 24),
+('True/False', 'Communication skills are essential in both personal and professional contexts.', 'True', 'False', NULL, NULL, 'True', 24),
+('MCQ', 'Which of the following is NOT a component of effective communication?', 'Ignoring feedback', 'Listening actively', 'Using empathy', 'Clarifying misunderstandings', 'Ignoring feedback', 24),
+('MCQ', 'What is the importance of clarity in communication?', 'It ensures understanding', 'It complicates the message', 'It increases ambiguity', 'It is unnecessary', 'It ensures understanding', 24),
+('True/False', 'Confidence can positively impact communication effectiveness.', 'True', 'False', NULL, NULL, 'True', 24),
+('MCQ', 'What does assertive communication involve?', 'Expressing thoughts and feelings in a respectful manner', 'Being passive and avoiding conflict', 'Being aggressive and dominant', 'Ignoring others’ opinions', 'Expressing thoughts and feelings in a respectful manner', 24),
+('MCQ', 'What is the significance of active listening in communication?', 'It demonstrates attentiveness and understanding', 'It involves speaking more than listening', 'It is not necessary', 'It leads to misunderstandings', 'It demonstrates attentiveness and understanding', 24),
+('True/False', 'Feedback should always be provided in a constructive manner.', 'True', 'False', NULL, NULL, 'True', 24),
+('MCQ', 'Which of the following is a strategy for improving communication skills?', 'Practicing active listening', 'Avoiding eye contact', 'Interrupting others', 'Using jargon extensively', 'Practicing active listening', 24),
+('MCQ', 'What is the purpose of open-ended questions in communication?', 'To encourage detailed responses', 'To limit responses', 'To convey a specific answer', 'To end the conversation', 'To encourage detailed responses', 24),
+('True/False', 'Non-verbal cues can contradict verbal messages.', 'True', 'False', NULL, NULL, 'True', 24);

@@ -1,0 +1,85 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="735d2696-139e-4cc8-89a1-ea73d1b89a49" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Degree</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Examination Fact</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="3af6fe41-9187-4d6c-b409-bc1f935379a3">
+          <ID>Examination Fact</ID>
+          <Name>Examination Fact</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="72068ae3-8173-41a6-bf87-244efe6aca83">
+            <DataSourceViewID>ITI Examination DWH</DataSourceViewID>
+            <TableID>dbo_Examination_Fact</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Branches DIM</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="5452be96-e173-442a-acb5-24b9d8dbd6b3">
+          <ID>Branches DIM</ID>
+          <Name>Branches DIM</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e71a6dd7-3c23-4b50-8df1-f71d0b3f8665">
+            <DataSourceViewID>ITI Examination DWH</DataSourceViewID>
+            <TableID>dbo_Branches_DIM</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Examination Fact 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="79b78857-dbb6-4b82-8311-ef8fa981f331">
+          <ID>Examination Fact</ID>
+          <Name>Examination Fact</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3785cf84-11bc-4f8d-bc6f-4b011b80ca1e">
+            <DataSourceViewID>ITI Examination DWH</DataSourceViewID>
+            <TableID>dbo_Examination_Fact</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Examination Fact 2</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="1b9a4a4a-3e60-4839-aae7-817b1cb708bb">
+          <ID>Examination Fact</ID>
+          <Name>Examination Fact</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6c7ffe1e-51c9-4c01-bf1f-a490373bdf1e">
+            <DataSourceViewID>ITI Examination DWH</DataSourceViewID>
+            <TableID>dbo_Examination_Fact</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

@@ -1,0 +1,12 @@
+insert into Graduation_Team (Score, Grade, P_SDate, P_EDate, Proj_ID) values (28, 'Good', '2015/01/01', '2024/01/03', 12);
+insert into Graduation_Team (Score, Grade, P_SDate, P_EDate, Proj_ID) values (31, 'Pass', '2015/01/01', '2024/01/01', 12);
+insert into Graduation_Team (Score, Grade, P_SDate, P_EDate, Proj_ID) values (41, 'Fail', '2015/01/01', '2024/01/08', 12);
+insert into Graduation_Team (Score, Grade, P_SDate, P_EDate, Proj_ID) values (30, 'Pass', '2015/01/01', '2024/01/08', 12);
+insert into Graduation_Team (Score, Grade, P_SDate, P_EDate, Proj_ID) values (72, 'Pass', '2015/01/01', '2024/01/09', 12);
+insert into Graduation_Team (Score, Grade, P_SDate, P_EDate, Proj_ID) values (56, 'Pass', '2015/01/01', '2024/01/06', 12);
+insert into Graduation_Team (Score, Grade, P_SDate, P_EDate, Proj_ID) values (29, 'Good', '2015/01/01', '2024/01/07', 12);
+insert into Graduation_Team (Score, Grade, P_SDate, P_EDate, Proj_ID) values (60, 'Good', '2015/01/01', '2024/01/07', 12);
+insert into Graduation_Team (Score, Grade, P_SDate, P_EDate, Proj_ID) values (41, 'Pass', '2015/01/01', '2024/01/03', 12);
+insert into Graduation_Team (Score, Grade, P_SDate, P_EDate, Proj_ID) values (91, 'Fail', '2015/01/01', '2024/01/04', 12);
+insert into Graduation_Team (Score, Grade, P_SDate, P_EDate, Proj_ID) values (40, 'VGood', '2015/01/01', '2024/01/04', 12);
+insert into Graduation_Team (Score, Grade, P_SDate, P_EDate, Proj_ID) values (68, 'VGood', '2015/01/01', '2024/01/06', 12);

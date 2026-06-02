@@ -1,0 +1,17 @@
+insert into Address (Zip_Code, City) values ('66534', 'Cairo');
+insert into Address (Zip_Code, City) values ('23299', 'Alexandria');
+insert into Address (Zip_Code, City) values ('33563', 'Luxor');
+insert into Address (Zip_Code, City) values ('80651', 'Aswan');
+insert into Address (Zip_Code, City) values ('00034', 'Giza');
+insert into Address (Zip_Code, City) values ('20156', 'Mansoura');
+insert into Address (Zip_Code, City) values ('29051', 'Menofia');
+insert into Address (Zip_Code, City) values ('41256', 'Asyut');
+insert into Address (Zip_Code, City) values ('93204', 'Saini');
+insert into Address (Zip_Code, City) values ('78738', 'Qena');
+insert into Address (Zip_Code, City) values ('06354', 'Damietta');
+insert into Address (Zip_Code, City) values ('93934', 'Port Said');
+insert into Address (Zip_Code, City) values ('78843', 'Ismailia');
+insert into Address (Zip_Code, City) values ('58028', 'Suez');
+insert into Address (Zip_Code, City) values ('45390', 'New Valley');
+insert into Address (Zip_Code, City) values ('39144', 'Sohag');
+insert into Address (Zip_Code, City) values ('05680', 'AlSharqia');

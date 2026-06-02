@@ -1,0 +1,295 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4a5cedc1-2997-489b-9987-d53786a6b7e0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Exam DIM</ID>
+  <Name>Exam DIM</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1197" scrolltop="-5212" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6181" y="13420" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Exam_DIM" left="-65" top="-1419" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3747" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000a30e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Exam_DIM" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1197</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5212</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-65</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-1419</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="68dffe23-c5cf-437b-988c-9cca89077cb3">
+    <DataSourceViewID>ITI Examination DWH</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="b8b34704-495a-4651-9b4f-8e208d3949d1">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="62ac4c08-56ee-4dc8-a902-bc932b769609">
+      <ID>Exam Id</ID>
+      <Name>Exam Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b725031a-7ae5-4a03-a6ae-92b0350b4eab">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b35c12b7-be1e-4e0e-8309-bbf4b010f0d9">
+            <TableID>dbo_Exam_DIM</TableID>
+            <ColumnID>Exam_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a220c11e-c71e-4bb4-84f9-32a9b79f26a9">
+          <AttributeID>Question BK</AttributeID>
+          <Name>Question BK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="63cbee9c-79ee-41ae-936c-e577a33a7603">
+          <AttributeID>Duration</AttributeID>
+          <Name>Duration</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d3f5996e-ac87-434b-936b-6a5a4f424f2b">
+          <AttributeID>No Questions</AttributeID>
+          <Name>No Questions</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="077ce2cd-683f-4c35-8c4d-03da97891159">
+          <AttributeID>Date</AttributeID>
+          <Name>Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="41443fe3-8de0-4303-9659-1f10d68dedfc">
+          <AttributeID>Min Mark To Pass</AttributeID>
+          <Name>Min Mark To Pass</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a3d0f1f4-0831-4b5a-bcb8-3ec6bca28b88">
+          <AttributeID>Full Mark</AttributeID>
+          <Name>Full Mark</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="83da4bfe-40bd-4897-88a2-e8a026dbb030">
+          <AttributeID>Question Type</AttributeID>
+          <Name>Question Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2c8457c7-eb10-4424-9c2f-1fbd3f795860">
+          <AttributeID>Correct Choice</AttributeID>
+          <Name>Correct Choice</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b88fce0c-607b-482d-9a47-9548d3ebb693">
+          <AttributeID>ST Answers</AttributeID>
+          <Name>ST Answers</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="68f5da8b-bb4e-4617-bd07-2e6e4ee53e42">
+          <AttributeID>St Degree</AttributeID>
+          <Name>St Degree</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="06ed77aa-4760-4184-a41e-490baefa76a1">
+      <ID>Question BK</ID>
+      <Name>Question BK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2e3accba-5c8c-4eaf-a17c-faf92e0412f1">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a43c3a51-4dc9-4812-ab36-3c1249542a96">
+            <TableID>dbo_Exam_DIM</TableID>
+            <ColumnID>Question_BK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a4081f93-39d8-43b5-b843-cfea1ccde6f8">
+      <ID>Duration</ID>
+      <Name>Duration</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b081a2b9-99e5-4c42-9916-8db0c03cf1ac">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="259c8809-5802-4b65-b369-869b9ad7d24d">
+            <TableID>dbo_Exam_DIM</TableID>
+            <ColumnID>Duration</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3edb0a19-b1a6-4611-8f22-a7709acccffe">
+      <ID>No Questions</ID>
+      <Name>No Questions</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d1c6a834-a7e9-4f9e-88c8-babc0dfa5b76">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="af7e9f83-8dc4-46dd-a104-6b9196e73036">
+            <TableID>dbo_Exam_DIM</TableID>
+            <ColumnID>No_Questions</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ad5520c6-ab37-4edd-83ea-05d27e6dc5df">
+      <ID>Date</ID>
+      <Name>Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ca1f6f55-73b4-481e-bf8e-0807cde93b32">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0bb72107-e216-420a-afb4-9a535e5f8245">
+            <TableID>dbo_Exam_DIM</TableID>
+            <ColumnID>Date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5cd8817f-aed5-497a-83b3-524beb1f20c1">
+      <ID>Min Mark To Pass</ID>
+      <Name>Min Mark To Pass</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ab5f8194-c718-4463-8891-dc73f24171bc">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0a70c091-1120-48e8-8cb5-799fa9a3ec21">
+            <TableID>dbo_Exam_DIM</TableID>
+            <ColumnID>Min_Mark_To_Pass</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3606b0f4-3f4f-4a32-aaaa-8fd8cc560bca">
+      <ID>Full Mark</ID>
+      <Name>Full Mark</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ba723a20-92db-4fe3-bb6c-73372c0075c1">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="02aa0c66-52f1-4a11-bae4-d1d600fc6e96">
+            <TableID>dbo_Exam_DIM</TableID>
+            <ColumnID>Full_Mark</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b02e963d-5054-4b5b-9456-c9120c594c90">
+      <ID>Question Type</ID>
+      <Name>Question Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="31f7fa7f-6dc9-4df5-85f7-a6bfa45fdb18">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8d006d9d-cc77-4588-bfdc-ccc194552d75">
+            <TableID>dbo_Exam_DIM</TableID>
+            <ColumnID>Question_Type</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="05a69f41-2889-4102-a60c-9724bfa4719a">
+      <ID>Correct Choice</ID>
+      <Name>Correct Choice</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="754bf7a5-fa06-4feb-8462-f50eda980605">
+          <DataType>WChar</DataType>
+          <DataSize>500</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c035ac6f-2ba6-483a-bca9-c7620c499034">
+            <TableID>dbo_Exam_DIM</TableID>
+            <ColumnID>Correct_Choice</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="94abba9e-594e-4712-af54-0095bb560467">
+      <ID>ST Answers</ID>
+      <Name>ST Answers</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="509e4a50-339c-4635-bf5a-f1e065051c1a">
+          <DataType>WChar</DataType>
+          <DataSize>500</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3bc60912-4c2a-4f0d-a31e-936bce54a31c">
+            <TableID>dbo_Exam_DIM</TableID>
+            <ColumnID>ST_Answers</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="33a139ee-e8f4-4e1a-a5ef-27e15c9a661f">
+      <ID>St Degree</ID>
+      <Name>St Degree</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="48e447c8-87de-4959-916a-b1443a36a9bc">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="70360ed5-dce4-4960-944b-03231dd41186">
+            <TableID>dbo_Exam_DIM</TableID>
+            <ColumnID>St_Degree</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

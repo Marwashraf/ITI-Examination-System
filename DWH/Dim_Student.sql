@@ -1,0 +1,27 @@
+
+CREATE TABLE Student_DIM(
+	Student_ID int IDENTITY(1,1) NOT NULL Primary Key,
+	Student_BK int NOT NULL,
+	Certificate_BK int NULL,
+	Job_BK int NULL,
+	Freelance_BK int NULL,
+	Team_BK int NULL,
+	First_name varchar(100) NULL,
+	Last_Name varchar(100) NULL,
+	Graduation_Year int NULL,
+	Gender varchar(1) NULL,
+	DateOfBirth date NULL,
+	S_City varchar(50) NULL,
+	Certificate_Name varchar(50) NULL,
+	Certificate_Hours int NULL,
+	Job_Title varchar(50) NULL,
+	Hiring_Date date NULL,
+	Company_Name varchar(100) NULL,
+	Salary int NULL,
+	Job_Type varchar(50) NULL,
+	Freelance_Cost int NULL,
+	Freelance_Duraction int NULL,
+	Clint_Name varchar(200) NULL,
+	Source_sys_code tinyint NULL,
+	last_date_modified date NULL DEFAULT (getdate())
+ )

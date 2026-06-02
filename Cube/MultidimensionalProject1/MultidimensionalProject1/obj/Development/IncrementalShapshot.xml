@@ -1,0 +1,117 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>MultidimensionalProject1</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>59Rd0f/9WjQi5JLs5biLHfLTiiA=2/17/2024 6:12:11 PM2/17/2024 6:07:51 PM</TimeStamp>
+        <ID>
+          <String>ITI Examination DWH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>dhzb6WWitewJ38FCFjRmSbf8sAA=2/17/2024 6:13:20 PM2/17/2024 6:13:18 PM</TimeStamp>
+        <ID>
+          <String>ITI Examination DWH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>us1u5EndTo5RfeaQ++vW0f9GRas=2/17/2024 7:48:35 PM2/17/2024 6:13:51 PM</TimeStamp>
+        <ID>
+          <String>Branches DIM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NaezcPOQ8kw1Dc9JZzrZss/ctno=2/17/2024 7:02:33 PM2/17/2024 7:00:55 PM</TimeStamp>
+        <ID>
+          <String>Exam DIM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Ddk8dlpqkOMJYdHaJ4xyjfHXuCw=2/17/2024 9:18:35 PM2/17/2024 9:18:34 PM</TimeStamp>
+        <ID>
+          <String>Student DIM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4yWiMIGxV3l4i4x7uJnsQGVswLI=2/17/2024 9:18:35 PM2/17/2024 9:18:34 PM</TimeStamp>
+        <ID>
+          <String>Instractor DIM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>P40vrpxScPrYs2SexrFJsev3w7E=2/17/2024 9:18:35 PM2/17/2024 9:18:35 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>25Lzr14ORrWCE6qINnf2OjuoO+4=2/17/2024 9:18:35 PM2/17/2024 9:18:35 PM</TimeStamp>
+        <ID>
+          <String>Address DIM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Jbp/MS8K9dqyATEXQmu5jl9P2O8=2/17/2024 9:18:35 PM2/17/2024 9:18:35 PM</TimeStamp>
+        <ID>
+          <String>Graduation Project Team DIM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>VWoyZW9bLlhamMNHr1F1HqWMdn8=2/17/2024 7:48:35 PM2/17/2024 6:13:51 PMUEC1DY7mLmLPciu0RKY9W167eMQ=2/17/2024 6:23:17 PM2/17/2024 6:13:51 PM</TimeStamp>
+        <ID>
+          <String>ITI Examination DWH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ZEu42UxdLWqqWWNSPlXtcJLe2Sg=2/17/2024 9:18:35 PM2/17/2024 7:43:32 PMKzKckBpezl1t9Wezx+a00NpEs0I=2/17/2024 9:06:46 PM2/17/2024 7:43:32 PM</TimeStamp>
+        <ID>
+          <String>Degree</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>3+DPuIajeDf/7RoQbm410A4CRsA=2/18/2024 1:59:54 AM2/17/2024 9:18:31 PMFb1f/ASwf1pVTK1bLL0UP8CzD04=2/17/2024 9:18:35 PM2/17/2024 9:18:34 PM</TimeStamp>
+        <ID>
+          <String>CubeMeasure</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>sDfsTB7/NOHTGKOhyJieSVRG+3s=2/17/2024 6:04:17 PM2/17/2024 6:04:04 PM</TimeStamp>
+      <ID>
+        <String>MultidimensionalProject1</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-02-18T00:00:27.116667Z</LastDeployed>
+</DeploymentSnapshot>

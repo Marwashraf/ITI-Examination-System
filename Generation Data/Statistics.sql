@@ -1,0 +1,22 @@
+INSERT INTO Questions (Question_Type,question, Choice_1, Choice_2, Choice_3, Choice_4, correct_Choice, Crs_ID)
+VALUES
+('MCQ','What is the mean of the data set 4, 8, 6, 5, 3?', '4', '5', '5.2', '6', '5.2',15),
+('MCQ','Which measure of central tendency is most affected by outliers?', 'Mean', 'Median', 'Mode', 'Range', 'Mean',15),
+('MCQ','In a standard normal distribution, what is the probability of a value being within one standard deviation of the mean?', '68%', '95%', '99.7%', '50%', '68%',15),
+('MCQ','What is the range of the data set 3, 7, 5, 9, 2?', '5', '7', '9', '11', '7',15),
+('MCQ','If P(A) = 0.5 and P(B) = 0.3, what is P(A and B) if A and B are independent?', '0.15', '0.8', '0.5', '0.3', '0.15',15),
+('MCQ','What type of probability distribution is used for the number of successes in a fixed number of trials?', 'Normal distribution', 'Binomial distribution', 'Poisson distribution', 'Uniform distribution', 'Binomial distribution',15),
+('MCQ','What does a p-value indicate in hypothesis testing?', 'The probability the null hypothesis is true', 'The probability the null hypothesis is false', 'The probability of observing the data if the null hypothesis is true', 'The likelihood of making a Type I error', 'The probability of observing the data if the null hypothesis is true',15),
+('MCQ','What is covariance a measure of?', 'The strength of the linear relationship between two variables', 'The average value of a data set', 'The variability of a single variable', 'The distribution of data points around the mean', 'The strength of the linear relationship between two variables',15),
+('MCQ','Which of the following is a measure of dispersion?', 'Mean', 'Median', 'Standard deviation', 'Mode', 'Standard deviation',15),
+('MCQ','If the correlation coefficient between two variables is 0, what does this mean?', 'There is a perfect positive linear relationship', 'There is a perfect negative linear relationship', 'There is no linear relationship', 'The variables are identical', 'There is no linear relationship',15),
+('True/False','The sum of probabilities of all possible outcomes in an experiment is always 1.', 'True', 'False', Null, Null, 'True',15),
+('True/False','In a positively skewed distribution, the mean is always greater than the median.', 'True', 'False', Null, Null, 'True',15),
+('True/False','A probability of 0 means the event is certain to occur.', 'True', 'False', Null, Null, 'False',15),
+('True/False','Standard deviation is a measure of central tendency.', 'True', 'False', Null, Null, 'False',15),
+('True/False','The larger the standard deviation, the more concentrated the data is around the mean.', 'True', 'False', Null, Null, 'False',15),
+('True/False','A correlation coefficient of -1 indicates a perfect negative linear relationship between two variables.', 'True', 'False', Null, Null, 'True',15),
+('True/False','The interquartile range is affected by extreme values in the dataset.', 'True', 'False', Null, Null, 'False',15),
+('True/False','P(A or B) is equal to P(A) + P(B) - P(A and B).', 'True', 'False', Null, Null, 'False',15),
+('True/False','A z-score represents the number of standard deviations a data point is from the mean.', 'True', 'False', Null, Null, 'False',15),
+('True/False','Sampling error decreases as sample size increases.', 'True', 'False', Null, Null, 'False',15);

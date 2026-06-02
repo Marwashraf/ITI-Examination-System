@@ -1,0 +1,435 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0a5f220b-64e9-4f4c-89bf-c36a9625892f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>ITI Examination DWH</ID>
+  <Name>ITI Examination DWH</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5568" scrolltop="-4559" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="14923" y="9800" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Branches_DIM" left="-467" top="-1800" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3747" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000a30e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Branches_DIM" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5568</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4559</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-467</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-1800</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="d56b3a7a-10de-4cf9-bcf7-d7747a258484">
+      <ID>Branches DIM</ID>
+      <Name>Branches DIM</Name>
+      <DimensionID>Branches DIM</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8ac52030-737c-4afd-a27c-e6f2c016b471">
+          <AttributeID>Branch ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ee7d14e9-24d1-4cf9-a0b8-007ecdd8e556">
+          <AttributeID>Department Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0e49e420-130a-47b0-b6aa-1dd651b8df8d">
+          <AttributeID>Department BK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="64607e92-0d7e-4ed5-8044-c3118d5d9a5d">
+          <AttributeID>Branch Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="95a03615-52c4-4f31-ab7c-7a9416dfb88c">
+          <AttributeID>Track BK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3a6bf8fa-8de9-4ef9-b8ad-cc15141f0d60">
+          <AttributeID>Track Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6bd27afe-9adc-4511-a085-cb49d1448293">
+          <AttributeID>Track Capacity</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a2dad90b-6120-40b8-8dc1-a0b8285975c6">
+          <AttributeID>Program Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="287f6562-c307-4eff-8af0-8b20b6bc70af">
+          <AttributeID>Intake</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="74407e53-76c8-445b-9b72-3ce15a9fad00">
+          <AttributeID>Intake S Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a83a1233-d72e-48bd-8a79-626acc009f55">
+          <AttributeID>Intake E Date</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="ff7c8714-cc12-4316-962a-9fec12fca43f">
+      <ID>Branches DIM</ID>
+      <Name>Branches DIM</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="f9a17201-b08f-4564-937b-f45823b023a6">
+          <ID>Branch BK</ID>
+          <Name>Branch BK</Name>
+          <Source dwd:design-time-name="ce4753c6-88df-4ee1-8075-537909f399e3">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0da4f4aa-3596-4657-b761-ff4781c48c13">
+              <TableID>dbo_Branches_DIM</TableID>
+              <ColumnID>Branch_BK</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d17357f3-11ef-4e2f-8d95-4fb67c77e07d">
+          <ID>Department BK</ID>
+          <Name>Department BK</Name>
+          <Source dwd:design-time-name="fda46b10-9adf-4984-a87f-f494f8c266ad">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cdf7f25b-5637-4dbe-b7dc-1717943b3b8e">
+              <TableID>dbo_Branches_DIM</TableID>
+              <ColumnID>Department_BK</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8c264aae-b111-4072-9069-388af3372bc0">
+          <ID>Track BK</ID>
+          <Name>Track BK</Name>
+          <Source dwd:design-time-name="4aa1aa77-e643-45c5-8dff-5ae6f0e1d844">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="49a18adc-bb25-4c7e-8de0-6ffe6ad11fc6">
+              <TableID>dbo_Branches_DIM</TableID>
+              <ColumnID>Track_BK</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e5127496-18ef-4b64-9114-8307c7d3ffdf">
+          <ID>Program BK</ID>
+          <Name>Program BK</Name>
+          <Source dwd:design-time-name="cd090566-734a-4c79-814a-f81802ee829b">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="da2aafed-1bd1-4d8a-86e7-56d0f5024846">
+              <TableID>dbo_Branches_DIM</TableID>
+              <ColumnID>Program_BK</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3c30433f-3e4e-499a-a8a7-6f63ff92626a">
+          <ID>Track Capacity</ID>
+          <Name>Track Capacity</Name>
+          <Source dwd:design-time-name="2348bc17-2448-45ba-9b46-6b80dee781e4">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="19ad287d-55fe-47bb-a92a-044e8bb84c18">
+              <TableID>dbo_Branches_DIM</TableID>
+              <ColumnID>Track_Capacity</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ea4ab958-c405-4fb5-961e-5c6b43504322">
+          <ID>Intake</ID>
+          <Name>Intake</Name>
+          <Source dwd:design-time-name="a441cf80-a762-43fc-a9a3-04a47904140a">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="dd7ebcaa-c923-471b-9538-3317fb33c88b">
+              <TableID>dbo_Branches_DIM</TableID>
+              <ColumnID>Intake</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e4ba60c8-f609-42de-a3b8-58f0c5015776">
+          <ID>Source SYS Code</ID>
+          <Name>Source SYS Code</Name>
+          <Source dwd:design-time-name="fde5adb7-7536-4826-b3d3-fa7c795cc579">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2a6771ff-3a17-479d-8f0a-3aed0ecfc187">
+              <TableID>dbo_Branches_DIM</TableID>
+              <ColumnID>Source_SYS_Code</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="864e3c06-b2ce-48ed-8546-f9e37694f668">
+          <ID>Branches DIM Count</ID>
+          <Name>Branches DIM Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="fd95b9e1-4370-4810-b32a-7117c045446d">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="160a7813-d9b5-45df-b8d5-627f8202849d">
+              <TableID>dbo_Branches_DIM</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="80b5dd73-d1c4-4030-84ef-ebcd0e76e3ef">
+          <ID>Track Capacity - Branches DIM</ID>
+          <Name>Track Capacity - Branches DIM</Name>
+          <Source dwd:design-time-name="f2606117-d432-42ce-a23d-f18a8c7d5d51">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7b7683a4-6901-439b-b614-8f1a9f064e63">
+              <TableID>dbo_Branches_DIM</TableID>
+              <ColumnID>Track_Capacity</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="0fa23737-df08-4f5d-82b8-2105126b9326">
+          <CubeDimensionID>Branches DIM</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="995e3384-92c8-43c7-b0eb-d1a2fc1940cc">
+              <AttributeID>Branch ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="40a27ed4-b924-47ce-90cc-571d5af98919">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0f202cb1-4c94-41b2-b0df-6c8c365d45f5">
+                    <TableID>dbo_Branches_DIM</TableID>
+                    <ColumnID>Branch_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="fef1c929-1198-4b4a-948f-504ae666c68f">
+      <ID>Branches DIM 1</ID>
+      <Name>Branches DIM 1</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="f67e8e0a-e51a-4e6e-8071-f66ac5cb7bd8">
+          <ID>Branch ID Distinct Count</ID>
+          <Name>Branch ID Distinct Count</Name>
+          <AggregateFunction>DistinctCount</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="7e7edb7c-1128-4d73-a920-fb5f5ecdf580">
+            <DataType>WChar</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2b619034-9d27-443c-a1e6-88e799b293a2">
+              <TableID>dbo_Branches_DIM</TableID>
+              <ColumnID>Branch_Name</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="b58bfffb-0d70-4522-a844-d7ce76a8f1c4">
+          <CubeDimensionID>Branches DIM</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d300e2d1-cc38-4967-8af0-9f00a9873294">
+              <AttributeID>Branch ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d668cbba-1353-4ab5-a80b-1a0b1ee9e7a6">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f9b37bff-df4e-4721-ae7d-e5f87a26ec48">
+                    <TableID>dbo_Branches_DIM</TableID>
+                    <ColumnID>Branch_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="599ecc96-b2b2-4df4-8706-9266412b2635">
+      <ID>Branches DIM 3</ID>
+      <Name>Branches DIM 3</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="c5c83eee-e1ef-4bf0-90ef-6856fe2daf41">
+          <ID>Track BK Distinct Count</ID>
+          <Name>Track BK Distinct Count</Name>
+          <AggregateFunction>DistinctCount</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="8b6f7a54-2a7a-47ce-9537-fa83030d1d59">
+            <DataType>WChar</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="56c21c57-5b26-483e-8e27-921509d3169f">
+              <TableID>dbo_Branches_DIM</TableID>
+              <ColumnID>Track_Name</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="3cbadf8f-1876-45f9-aa4b-b989e449be1d">
+          <CubeDimensionID>Branches DIM</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="711fd867-56d4-402b-ad97-e5b5f100a807">
+              <AttributeID>Branch ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="044f36cd-17a4-43f3-9a6d-9824cfc43507">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a8881bc1-f96b-4c61-89ab-fc1ffbebfcef">
+                    <TableID>dbo_Branches_DIM</TableID>
+                    <ColumnID>Branch_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="25fd7917-c91d-4c9d-b165-a2309263dc2f">
+      <ID>Branches DIM 4</ID>
+      <Name>Branches DIM 4</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="a992226f-55f4-48ba-92bb-c0fbdc7caa88">
+          <ID>Department BK Distinct Count</ID>
+          <Name>Department BK Distinct Count</Name>
+          <AggregateFunction>DistinctCount</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="bb583b31-838b-44c9-b059-80749b8b90e6">
+            <DataType>WChar</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1b336ca3-e485-4a1c-a727-f9c1af23ae2a">
+              <TableID>dbo_Branches_DIM</TableID>
+              <ColumnID>Department_Name</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="5108ef6d-eba3-4eec-bbd8-c18c8c56ca10">
+          <CubeDimensionID>Branches DIM</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="92a19746-5dd6-4c0b-836a-18946b93bfbb">
+              <AttributeID>Branch ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f3b5b7c4-2159-483b-bc20-7772e7f6479a">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0ae118df-8bbe-4915-bf5d-44c41c821d9c">
+                    <TableID>dbo_Branches_DIM</TableID>
+                    <ColumnID>Branch_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="948799ae-4a61-47b7-b623-3c9ccf2204b5">
+      <ID>Branches DIM 2</ID>
+      <Name>Branches DIM 2</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="e96f0d53-f89b-42ec-891e-aba7d833e1e8">
+          <ID>Intake Distinct Count</ID>
+          <Name>Intake Distinct Count</Name>
+          <AggregateFunction>DistinctCount</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="ffe3e4b1-1d38-40bf-8643-28a8c3537d43">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="61880d8d-2f45-4473-a92c-17536ae877c8">
+              <TableID>dbo_Branches_DIM</TableID>
+              <ColumnID>Intake</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="75696f0f-1940-46fa-8f0b-abf177eb2d14">
+          <CubeDimensionID>Branches DIM</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a4ed3515-d924-43e6-8bf8-1167ea40cce4">
+              <AttributeID>Branch ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1393bd93-8d1f-4f20-9a01-c263e1330e44">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ba1fda17-49a7-42f3-a7b1-2ebe568892f9">
+                    <TableID>dbo_Branches_DIM</TableID>
+                    <ColumnID>Branch_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="ea8bf35f-4460-4cb6-9b1c-ea6bdb0470bd">
+    <DataSourceViewID>ITI Examination DWH</DataSourceViewID>
+  </Source>
+</Cube>

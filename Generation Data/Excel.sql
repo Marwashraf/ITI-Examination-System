@@ -1,0 +1,22 @@
+INSERT INTO Questions (Question_Type,question, Choice_1, Choice_2, Choice_3, Choice_4, correct_Choice, Crs_ID)
+VALUES 
+('MCQ','What function calculates the sum of a range of cells?', 'SUM()', 'TOTAL()', 'ADD()', 'CALCULATE()', 'SUM()',13),
+('MCQ','Which shortcut applies bold formatting to selected cells?', 'Ctrl + B', 'Ctrl + I', 'Ctrl + U', 'Ctrl + Shift + B', 'Ctrl + B',13),
+('MCQ','How can you freeze panes in Excel?', 'View > Window > Freeze Panes', 'Layout > Freeze', 'Data > Freeze Cells', 'Review > Freeze', 'View > Window > Freeze Panes',13),
+('MCQ','What does the VLOOKUP function do?', 'Looks up text in a single row', 'Finds and replaces specific values', 'Searches for a value in the first column of a table', 'Calculates vertical totals', 'Searches for a value in the first column of a table',13),
+('MCQ','Which feature allows you to transform data in Excel?', 'Data Mining', 'Power Query', 'Data Types', 'Quick Analysis', 'Power Query',13),
+('MCQ','What is the shortcut to insert a new row?', 'Ctrl + Shift + "+’"', 'Alt + I, R', 'Ctrl + "+"', 'Shift + E', 'Ctrl + Shift + "+’"',13),
+('MCQ','Which function returns the current date and time?', 'NOW()', 'TODAY()', 'CURRENT()', 'TIME()', 'NOW()',13),
+('MCQ','How do you display formulas within the cells instead of the results?', 'Ctrl + ~', 'Ctrl + Shift + U', 'Alt + H, F', 'Ctrl + F', 'Ctrl + ~',13),
+('MCQ','What is the maximum number of rows in an Excel 2016 spreadsheet?', '1,048,576', '65,536', '2,147,483,647', 'Unlimited', '1,048,576',13),
+('MCQ','Which of the following is not a valid Excel file extension?', '.xls', '.xlsx', '.xlsm', '.xlex', '.xlex',13),
+('MCQ','What does the IF function do?', 'Inserts a formula', 'Performs a logical test', 'Formats a cell if a condition is true', 'Increases font size', 'Performs a logical test',13),
+('MCQ','Which option can you use to quickly remove duplicate rows from a dataset in Excel?', 'Remove Duplicates', 'Delete Rows', 'Advanced Filter', 'Data Cleanup', 'Remove Duplicates',13),
+('MCQ','What shortcut keys do you use to save an Excel document?', 'Ctrl + S', 'Ctrl + E', 'Ctrl + W', 'Ctrl + Shift + S', 'Ctrl + S',13),
+('MCQ','How can you activate the Excel Help system?', 'F1', 'F2', 'F10', 'Ctrl + H', 'F1',13),
+('MCQ','Which function can you use to calculate the average value of a set of numbers?', 'AVERAGE()', 'MEAN()', 'MEDIAN()', 'SUM()', 'AVERAGE()',13),
+('True/False','Conditional formatting allows you to automatically apply formatting to cells that meet specific criteria.', 'True', 'False', Null, Null, 'True',13),
+('True/False','The shortcut Ctrl + Z undoes the last action in Excel.', 'True', 'False', Null, Null, 'True',13),
+('True/False','Excel can only sort data in ascending order.', 'True', 'False', Null, Null, 'False',13),
+('True/False','PivotTables are used for generating random data samples from a larger dataset.', 'True', 'False', Null, Null, 'False',13),
+('True/False','The MAX function returns the smallest number in a set of values.', 'True', 'False', Null, Null, 'False',13);
